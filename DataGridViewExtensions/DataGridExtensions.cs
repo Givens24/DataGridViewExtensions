@@ -120,7 +120,7 @@ namespace DataGridViewExtensions
 
             var columns = new Dictionary<PropertyInfo, string>();
             properties.ForEach(p => columns.Add(p, (GetColumnName(p))));
-            columns.ToList().ForEach(column => dataGridView.Columns.Add(column.Value, column.Key != null ? column.Key.Name : column.Value));
+            columns.ToList().ForEach(column => dataGridView.Columns.Add(column.Value, column.Key.Name));
             dataGridView.Rows.Add(dataToBindToGrid.Count());
             var rowIndex = 0;
             dataToBindToGrid.ToList().ForEach(data =>
