@@ -1,9 +1,9 @@
 # DataGridViewAssistant
-A library of extensions for Windows forms data grid views
+A library of extensions for Windows forms data grid views.
 
-This library is used for performing searches, updates, formatting and generic data binding for **Windows Forms** **DataGridViews**
+This library is used for performing searches, updates, formatting and generic data binding for **Windows Forms** **DataGridViews**.
 
-The following functions are included in the library. **FindRows**, **UpdateCells**, **RemoveRows**, **FormatCells**, **BindData**
+The following functions are included in the library. **FindRows**, **UpdateCells**, **RemoveRows**, **FormatCells**, **BindData**.
 
 ## FindRows
 **FindRows** takes a ```Func<DataGridViewCell, bool>``` parameter in order to find rows based on a specific data grid cells.
